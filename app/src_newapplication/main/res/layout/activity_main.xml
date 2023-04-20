@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="199dp"
+        android:text="@string/btn_next_text" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="128dp"
+        android:text="@string/btn_next" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RadioGroup>
+
+   <EditText
+       android:id="@+id/et1"
+       android:layout_width="wrap_content"
+       android:layout_height="48dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="278dp"
+       android:layout_marginEnd="88dp"
+       android:ems="10"
+       android:hint="@string/et_hints"
+       android:inputType="textPersonName"
+       android:text="Show" />
+
+    <Button
+        android:id="@+id/tv_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="-90dp"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="126dp"
+        android:text="@string/my_name" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="177dp"
+        android:text="@string/student_id" />
+
+    <TextView
+        android:id="@+id/tv_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="233dp"
+        android:text="@string/course_name" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="201dp"
+        android:layout_height="269dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/Java"
+        android:textColor="@color/purple_200" />
+
+</RelativeLayout>
+
