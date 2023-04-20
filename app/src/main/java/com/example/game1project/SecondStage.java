@@ -196,7 +196,7 @@ public class SecondStage extends AppCompatActivity implements View.OnClickListen
                         bundle.putInt("score", score);
                         // Please change the class name to other class name that you are using
                         // To pass the data to another class
-                        Intent intent = new Intent(SecondStage.this,SecondStage.class);
+                        Intent intent = new Intent(SecondStage.this,Stage_Alex1.class);
                         // Add the Bundle to the Intent
                         intent.putExtras(bundle);
                         //  Jump to other activity
