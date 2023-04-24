@@ -1,4 +1,4 @@
-package com.example.ch5ex1;
+package com.example.game1project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
