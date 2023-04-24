@@ -1,6 +1,4 @@
-package com.example.new_application;
-
-/*ActivityLifeCycle*/
+package com.example.game1project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
