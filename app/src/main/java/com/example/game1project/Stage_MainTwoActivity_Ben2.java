@@ -1,4 +1,4 @@
-package com.example.new_application;
+package com.example.game1project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
