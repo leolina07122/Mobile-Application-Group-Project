@@ -199,11 +199,11 @@ public class FirstStage extends AppCompatActivity implements View.OnClickListene
         float right_rotation = arrow_right.getRotation() % 360;
         if (right_rotation == 0) {
             // The ImageView is not rotated
+            return true;
         } else if (right_rotation == 90) {
             // The ImageView is rotated 90 degrees
         } else if (right_rotation == 180) {
             // The ImageView is rotated 180 degrees
-            return true;
         } else if (right_rotation == 270) {
             // The ImageView is rotated 270 degrees
         }
@@ -214,11 +214,11 @@ public class FirstStage extends AppCompatActivity implements View.OnClickListene
         float left_rotation = arrow_left.getRotation() % 360;
         if (left_rotation == 0) {
             // The ImageView is not rotated
-            return true;
         } else if (left_rotation == 90) {
             // The ImageView is rotated 90 degrees
         } else if (left_rotation == 180) {
             // The ImageView is rotated 180 degrees
+            return true;
         } else if (left_rotation == 270) {
             // The ImageView is rotated 270 degrees
         }
