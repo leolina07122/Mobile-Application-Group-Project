@@ -7,6 +7,7 @@
     <string name="right">Right</string>
     <string name="ClickSquare">Click the Orange Button 3 times and Click the Green Button 5 times</string>
     <string name="Introduction">Welcome to the game, Please enter your name, and click start button</string>
+    <string name="Introduction_PeterGame1">Open the door</string>
     <string name="start">Start</string>
     <string name="score">Score:</string>
     <string name="name">Name</string>
