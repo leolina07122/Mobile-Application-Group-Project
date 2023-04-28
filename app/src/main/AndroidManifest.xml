@@ -34,6 +34,12 @@
         <activity
             android:name=".SecondStage"
             android:exported="false" />
+        <activity 
+            android:name=".Stage_Peter1"
+            android:exported="true"/>
+        <activity
+            android:name=".Stage_Peter2"
+            android:exported="true"/>
     </application>
 
 </manifest>
